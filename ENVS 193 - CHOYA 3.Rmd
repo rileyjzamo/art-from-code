@@ -2,7 +2,10 @@
 title: "ENVS 193 - CHOYA 3"
 author: "Riley Zamora"
 date: "`r Sys.Date()`"
-output: html_document
+output:
+  html_document:
+    toc: true
+    toc_float: true
 ---
 
 ```{r setup, include=FALSE}
